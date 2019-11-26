@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
   res.render("index", { title: "Index" });
 });
 const server = app.listen(3000, () => {
-  console.log("PS Project Running on port ", server.address.port,"!");
+  console.log("PS Project Running on port ", server.address().port,"!");
 });
 
 
