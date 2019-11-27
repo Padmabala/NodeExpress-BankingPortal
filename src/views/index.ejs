@@ -4,8 +4,9 @@
   <h1><%=title%></h1>
   <a href="/profile">Profile</a>
 </div>
-
 <%-include('summary',{account:account.savings})%>
+<%-include('summary',{account:accounts.checking})%>
+<%-include('summary',{account:accounts.credit})%>
 
 <br /><a href="/transfer">Transfer</a>
 
