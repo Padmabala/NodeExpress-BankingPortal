@@ -24,7 +24,8 @@
   "homepage": "https://github.com/pluralsight-projects/NodeExpress-BankingPortal#readme",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "npm": "^6.13.1"
   },
   "devDependencies": {
     "chai": "4.1.2",
